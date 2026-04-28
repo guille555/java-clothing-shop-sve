@@ -1,0 +1,84 @@
+.header {
+  background-color: #5858F7;
+}
+
+.header > .header_banner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header > .header_banner > .menu_container,
+.header > .header_banner > .shopping_basket_container {
+  padding: 0.5rem;
+}
+
+.header > .header_banner > .menu_container > i,
+.header > .header_banner > .shopping_basket_container > i {
+  font-size: 1.25rem;
+  color: #FFF;
+}
+
+.header > .header_banner > .logo_container {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.header > .header_banner > .logo_container > p {
+  font-size: 2rem;
+  font-family: "Arial";
+  margin: 0;
+}
+
+.header > .header_banner > .logo_container > p > a {
+  text-decoration: none;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.header > .header_menu {
+  position: fixed;
+  height: 100vh;
+  top: 0rem;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.80);
+}
+
+.header > .header_menu > .menu_container {
+  width: 75%;
+  padding: 0.5rem;
+  padding-top: 1rem;
+  background-color: #222;
+}
+
+.header > .header_menu > .menu_container > i {
+  color: #FFF;
+  font-size: 1.25rem;
+}
+
+.header > .header_menu > .menu_bar {
+  background-color: #222;
+  width: 80%;
+  height: 88vh;
+}
+
+.header > .header_menu > .menu_bar > .menu {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 85vh;
+}
+
+.header > .header_menu > .menu_bar > .menu > .menu_item {
+  padding: 0.5rem;
+}
+
+.header > .header_menu > .menu_bar > .menu > .menu_item > a {
+  color: #FFF;
+  cursor: pointer;
+}

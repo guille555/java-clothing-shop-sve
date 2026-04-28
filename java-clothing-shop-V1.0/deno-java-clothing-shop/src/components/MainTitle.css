@@ -1,0 +1,9 @@
+.main_title_container {
+  padding: 0.5rem;
+}
+
+.main_title_container > .main_title {
+  margin: 0;
+  font-size: 2rem;
+  font-family: "Arial";
+}

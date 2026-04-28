@@ -1,0 +1,108 @@
+.header > .navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header > .navbar > .menu_list {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.header > .navbar > .menu_list > .menu_item {
+  width: 100dvw;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  background-color: #963535;
+  text-align: center;
+}
+
+.header > .navbar > .menu_list > .menu_item > .menu_link {
+  color: #FFF;
+  cursor: pointer;
+}
+
+
+/*
+.main > .title_main_container {
+  width: 100dvw;
+  box-sizing: border-box;
+  padding: 0.5rem;
+}
+
+.main > .title_main_container > .title_main {
+  margin: 0;
+  font-family: "Arial";
+  font-size: 1.75rem;
+}
+
+
+.main > .form_container {
+  width: 100dvw;
+  box-sizing: border-box;
+  background-color: #963535;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.main > .form_container > .form {
+  color: #FFF;
+  font-family: "Arial";
+  font-size: 1rem;
+}
+
+.main > .form_container > .form > .form_field {
+  margin-bottom: 0.25rem;
+}
+
+.main > .form_container > .form > .form_field > .label {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.15rem;
+}
+
+.main > .form_container > .form > .form_field > .input {
+  border: none;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+}
+
+.main > .form_container > .form > .buttons_panel {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main > .form_container > .form > .buttons_panel > .button {
+  border: none;
+  outline: none;
+  width: 120px;
+  margin-bottom: 0.25rem;
+  background-color: #B95F5F;
+  color: #FFF;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0.25rem;
+}
+
+.main > .form_container > .form > .buttons_panel > .button:first-child {
+  margin-left: 0;
+}
+
+.main > .form_container > .form > .buttons_panel > .button:last-child {
+  margin-right: 0;
+}
+
+
+.main > .table_form_elements_container {
+  background-color: #963535;
+  width: 100dvw;
+  box-sizing: border-box;
+  padding: 0.5rem;
+}
+*/
